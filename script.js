@@ -2,9 +2,8 @@ function carregar(){
 var hora = window.document.getElementById('hora')
 var img = window.document.getElementById('imagem')
 var agora = new Date()
-// var hr = agora.getHours()
+var hr = agora.getHours()
 var min = agora.getMinutes()
-var hr = 19
     hora.innerHTML = `Agora são ${hr} horas e ${min} minutos`
 if (hr >= 06 && hr < 12){
     img.src = 'imagens/manha_peq.jpg'
