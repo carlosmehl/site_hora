@@ -9,6 +9,7 @@ header > h1{
 }
 footer{
     text-align: center;
+    font-style: italic;
 }
 section > #hora{
     background-color: whitesmoke;
@@ -20,4 +21,6 @@ section > #hora{
     height: 350px;
     width: 600px;
     font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
 }
